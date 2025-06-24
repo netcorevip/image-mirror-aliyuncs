@@ -104,9 +104,9 @@ jobs:
         id: syncImage
         env:
           TARGET_REGISTRY_PASSWORD: ${{ secrets.TARGET_REGISTRY_PASSWORD }}
-          TARGET_REGISTRY_USER: 11652256
+          TARGET_REGISTRY_USER: aiqyhs@126.com
           TARGET_NAMESPACE: oviovi
-          TARGET_REGISTRY: ccr.ccs.tencentyun.com
+          TARGET_REGISTRY: registry.cn-hangzhou.aliyuncs.com
         #处理body中的空格和tab和换行，并在结尾添加: ， 写入images.yml 文件
         run: | 
           echo "${{ github.event.issue.body }}" > images-init.yml 
