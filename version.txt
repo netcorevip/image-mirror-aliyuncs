@@ -1,0 +1,3 @@
+Fork https://github.com/imdingtalk/image-mirror 实际推送 registry.cn-hangzhou.aliyuncs.com
+
+2025-8-6 16:06:26 更新yaml配置为vars获取
